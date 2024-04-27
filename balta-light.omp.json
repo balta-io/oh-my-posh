@@ -10,16 +10,13 @@
             "style": "folder"
           },
           "style": "diamond",
-          "template": "<#42E66C>\ueaf7 </><b>{{ .Path }}</b>",
+          "template": "<#9494f7> 👉 </><b>{{ .Path }}</b>",
           "type": "path"
         },
         {
-          "foreground": "#008DF1",
-          "properties": {
-            "branch_icon": ""
-          },
-          "style": "diamond",
-          "template": "<#ffffff> \u26A1 </><b>{{ .HEAD }}</b>",
+          "foreground": "#11D15E",
+          "style": "plain",
+          "template": " ({{ .HEAD }})",
           "type": "git"
         },
         {
@@ -30,6 +27,20 @@
         }
       ],
       "type": "prompt"
+    },
+    {
+      "alignment": "right",
+      "newline": false,
+      "type": "prompt",
+      "segments": [
+        {
+          "type": "dotnet",
+          "style": "accordion",
+          "foreground": "#8625D2",
+          "background": "#FFFFFF",
+          "template": "<i>  {{ .Full }} </i>"
+        }
+      ]
     },
     {
       "alignment": "left",
