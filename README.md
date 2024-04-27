@@ -8,4 +8,5 @@
 
 
 ## Dark Mode
-- WIP
+![Screenshot 2024-04-27 at 12 37 13](https://github.com/balta-io/oh-my-posh/assets/965305/3267ce7d-dfc7-4684-bee9-7355612c2ebe)
+
